@@ -5,14 +5,43 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+header figure {
+  margin: 0;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
+}
+
+nav li {
+  margin-right: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
+  padding-top: 1.875em;
+}
+
+a.inscriptionLink {
+  color: #0065fc;
+  font-weight: bold;
+  border: none;
 }
