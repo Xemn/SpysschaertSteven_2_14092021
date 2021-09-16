@@ -34,13 +34,13 @@ a {
   color: black;
 }
 
-a:hover {
+.menu a:hover {
   color: #0065fc;
   border-top: 3px solid #0065fc;
   padding-top: 1.875em;
 }
 
-a.inscriptionLink {
+.menu a.inscriptionLink {
   color: #0065fc;
   font-weight: bold;
   border: none;
@@ -131,4 +131,9 @@ nav h2 {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
   padding-right: 1em;
+}
+
+.filters a:hover {
+  color: white;
+  background-color: #0065fc;
 }
