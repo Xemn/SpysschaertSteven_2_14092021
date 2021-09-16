@@ -61,6 +61,13 @@ form {
   align-items: center;
 }
 
+form i {
+  padding: 1em;
+  background-color: #deebff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 form input {
   margin-left: 0;
   margin-right: 0;
