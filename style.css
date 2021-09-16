@@ -94,3 +94,13 @@ form button {
   padding-left: 1em;
   padding-right: 1em;
 }
+
+.filters {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+}
