@@ -104,3 +104,7 @@ form button {
 nav h2 {
   margin: 0;
 }
+
+nav i {
+  color: #0065fc;
+}
