@@ -177,3 +177,8 @@ nav h2 {
 article h2 {
   font-weight: bold;
 }
+
+article .firstThreeCards {
+  margin-top: 1em;
+  display: flex;
+}
