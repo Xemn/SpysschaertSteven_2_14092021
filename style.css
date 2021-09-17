@@ -198,3 +198,14 @@ article .firstThreeCards {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
+.descriptionHebergement h3 {
+  font-size: 1em;
+  margin: 5px;
+}
+
+.descriptionHebergement p {
+  font-size: 0.75em;
+  font-weight: normal;
+  margin: 5px;
+}
