@@ -176,6 +176,7 @@ nav h2 {
 
 article h2 {
   font-weight: bold;
+  margin: 15px;
 }
 
 article .firstThreeCards {
@@ -190,7 +191,17 @@ article .firstThreeCards {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  padding: 2em;
+  padding: 1em;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 .card img {
@@ -200,12 +211,18 @@ article .firstThreeCards {
 }
 
 .descriptionHebergement h3 {
-  font-size: 1em;
+  font-size: 0.75em;
   margin: 5px;
+  margin-left: 10px;
 }
 
 .descriptionHebergement p {
   font-size: 0.75em;
   font-weight: normal;
   margin: 5px;
+  margin-left: 10px;
+}
+
+.firstThreeCards a {
+  margin: 15px;
 }
