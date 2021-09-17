@@ -169,3 +169,11 @@ nav h2 {
   color: #0065fc;
   margin-right: 0.5em;
 }
+
+.articleAndAside {
+  margin-top: 2em;
+}
+
+article h2 {
+  font-weight: bold;
+}
