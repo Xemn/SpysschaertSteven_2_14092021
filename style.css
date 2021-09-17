@@ -182,3 +182,19 @@ article .firstThreeCards {
   margin-top: 1em;
   display: flex;
 }
+
+.articleAndAside {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 2em;
+}
+
+.card img {
+  height: 150px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
