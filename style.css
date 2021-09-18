@@ -319,3 +319,7 @@ article p a:hover {
 .displayInRow {
   display: flex;
 }
+
+.firstThreeActivities {
+  display: flex;
+}
