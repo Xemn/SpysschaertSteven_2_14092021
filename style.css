@@ -256,6 +256,17 @@ article .SecondThreeCards {
   margin: 1.5em;
 }
 
+.populaireCard {
+  display: flex;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: white;
+  border: 2px solid white;
+}
+
 .populaireCard img {
   height: 115px;
   width: 40%;
