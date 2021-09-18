@@ -315,3 +315,7 @@ article p a:hover {
 .descriptionPopulaire p {
   font-size: 0.75em;
 }
+
+.displayInRow {
+  display: flex;
+}
