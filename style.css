@@ -6,8 +6,8 @@
 body {
   font-family: "Raleway", sans-serif;
   margin-top: 1em;
-  margin-right: 2em;
-  margin-left: 2em;
+  margin-right: 3em;
+  margin-left: 3em;
 }
 
 header figure {
@@ -186,12 +186,12 @@ aside {
 }
 
 article {
-  flex: 3;
+  flex: 1.75;
   margin-right: 2em;
 }
 
 aside {
-  flex: 1.2;
+  flex: 1;
 }
 
 article h2 {
