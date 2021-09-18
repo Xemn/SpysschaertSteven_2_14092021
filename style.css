@@ -323,3 +323,52 @@ article p a:hover {
 .firstThreeActivities {
   display: flex;
 }
+
+.firstThreeActivities h3 {
+  font-size: 0.75em;
+  margin: 1em;
+  font-weight: bold;
+}
+
+.cardActivities {
+  background-color: white;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.cardLarge {
+  margin-right: 1.5em;
+}
+
+.cardLarge img {
+  height: 390px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-width: 295px;
+}
+
+.cardInColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardMedium img {
+  height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  min-width: 295px;
+  max-width: 295px;
+}
+
+.cardSmall img {
+  height: 120px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  min-width: 295px;
+  max-width: 295px;
+}
