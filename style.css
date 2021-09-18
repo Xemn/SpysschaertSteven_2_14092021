@@ -239,3 +239,9 @@ article .SecondThreeCards {
 .SecondThreeCards a {
   margin: 15px;
 }
+
+.titleAside {
+  display: flex;
+  margin: 15px;
+  justify-content: space-between;
+}
