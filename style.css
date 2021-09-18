@@ -196,7 +196,8 @@ aside {
 
 article h2 {
   font-weight: bold;
-  margin: 15px;
+  margin: 1.5em;
+  margin-bottom: 0.75em;
 }
 
 article .firstThreeCards,
