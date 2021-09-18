@@ -268,14 +268,14 @@ article .SecondThreeCards {
 }
 
 .populaireCard img {
-  height: 135px;
-  width: 40%;
+  height: 140px;
+  width: 30%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 
 .populaire a {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
 }
 
 .descriptionPopulaire {
