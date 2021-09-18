@@ -241,7 +241,8 @@ article .SecondThreeCards {
 
 .titleAside {
   display: flex;
-  margin: 15px;
+  margin: 1.5em;
+  margin-bottom: 0.75em;
   justify-content: space-between;
 }
 
@@ -252,7 +253,7 @@ article .SecondThreeCards {
 .populaire {
   display: flex;
   flex-direction: column;
-  margin: 1.5em;
+  margin: 0.75em 1.5em;
 }
 
 .populaireCard {
