@@ -245,3 +245,7 @@ article .SecondThreeCards {
   margin: 15px;
   justify-content: space-between;
 }
+
+.titleAside h2 {
+  font-weight: bold;
+}
