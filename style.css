@@ -286,6 +286,7 @@ article p a:hover {
   width: 30%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  object-fit: cover;
 }
 
 .populaire a {
