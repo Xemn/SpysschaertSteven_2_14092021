@@ -131,6 +131,7 @@ nav h2 {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
   padding-right: 1em;
+  font-weight: bold;
 }
 
 .filters a:hover {
@@ -241,6 +242,15 @@ article .SecondThreeCards {
 .firstThreeCards a,
 .SecondThreeCards a {
   margin: 1em;
+}
+
+article p a {
+  margin: 1.5em;
+  font-weight: bold;
+}
+
+article p a:hover {
+  color: #0065fc;
 }
 
 .titleAside {
