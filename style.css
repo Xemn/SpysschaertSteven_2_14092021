@@ -255,3 +255,10 @@ article .SecondThreeCards {
   flex-direction: column;
   margin: 1.5em;
 }
+
+.populaireCard img {
+  height: 115px;
+  width: 40%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
