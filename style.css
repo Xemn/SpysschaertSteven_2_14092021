@@ -249,3 +249,9 @@ article .SecondThreeCards {
 .titleAside h2 {
   font-weight: bold;
 }
+
+.populaire {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em;
+}
