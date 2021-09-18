@@ -239,6 +239,12 @@ article .SecondThreeCards {
   margin-left: 10px;
 }
 
+.stars {
+  font-size: 0.75em;
+  margin: 5px;
+  margin-left: 10px;
+}
+
 .firstThreeCards a,
 .SecondThreeCards a {
   margin: 1em;
