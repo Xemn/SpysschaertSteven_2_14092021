@@ -172,19 +172,6 @@ nav h2 {
 
 .articleAndAside {
   margin-top: 2em;
-}
-
-article h2 {
-  font-weight: bold;
-  margin: 15px;
-}
-
-article .firstThreeCards {
-  margin-top: 1em;
-  display: flex;
-}
-
-.articleAndAside {
   background-color: #f2f2f2;
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -192,6 +179,17 @@ article .firstThreeCards {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   padding: 1em;
+}
+
+article h2 {
+  font-weight: bold;
+  margin: 15px;
+}
+
+article .firstThreeCards,
+article .SecondThreeCards {
+  margin-top: 1em;
+  display: flex;
 }
 
 .card {
@@ -223,6 +221,7 @@ article .firstThreeCards {
   margin-left: 10px;
 }
 
-.firstThreeCards a {
+.firstThreeCards a,
+.SecondThreeCards a {
   margin: 15px;
 }
