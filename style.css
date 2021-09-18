@@ -172,13 +172,27 @@ nav h2 {
 
 .articleAndAside {
   margin-top: 2em;
+  padding: 1em;
+  display: flex;
+}
+
+article,
+aside {
   background-color: #f2f2f2;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  padding: 1em;
+}
+
+article {
+  flex: 3;
+  margin-right: 2em;
+}
+
+aside {
+  flex: 1.2;
 }
 
 article h2 {
