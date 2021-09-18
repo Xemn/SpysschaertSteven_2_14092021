@@ -316,15 +316,27 @@ article p a:hover {
   font-size: 0.75em;
 }
 
+.activités {
+  margin-top: 3em;
+}
+
+.activités h2 {
+  font-weight: bold;
+}
 .displayInRow {
   display: flex;
 }
 
 .firstThreeActivities {
+  margin-right: 1em;
+}
+
+.firstThreeActivities,
+.secondThreeActivities {
   display: flex;
 }
 
-.firstThreeActivities h3 {
+.activités h3 {
   font-size: 0.75em;
   margin: 1em;
   font-weight: bold;
@@ -341,14 +353,15 @@ article p a:hover {
 }
 
 .cardLarge {
-  margin-right: 1.5em;
+  margin-right: 2em;
 }
 
 .cardLarge img {
   height: 390px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  max-width: 295px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .cardInColumn {
@@ -361,14 +374,14 @@ article p a:hover {
   height: 180px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  min-width: 295px;
-  max-width: 295px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .cardSmall img {
   height: 120px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  min-width: 295px;
-  max-width: 295px;
+  width: 100%;
+  object-fit: cover;
 }
