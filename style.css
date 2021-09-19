@@ -6,8 +6,15 @@
 body {
   font-family: "Raleway", sans-serif;
   margin-top: 1em;
-  margin-right: 3em;
+  margin: 0;
+}
+
+.marginLeft {
   margin-left: 3em;
+}
+
+.marginRight {
+  margin-right: 3em;
 }
 
 header figure {
@@ -402,4 +409,19 @@ article p a:hover {
   border-top-right-radius: 15px;
   width: 100%;
   object-fit: cover;
+}
+
+footer {
+  display: flex;
+  margin-top: 3em;
+  background-color: #f2f2f2;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
