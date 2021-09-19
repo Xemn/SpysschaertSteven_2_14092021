@@ -417,11 +417,23 @@ footer {
   background-color: #f2f2f2;
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 2em;
+  padding-left: 3em;
+}
+
+footer nav {
+  margin-right: 15em;
 }
 
 footer nav ul {
   display: flex;
   flex-direction: column;
   padding: 0;
+}
+
+footer li {
+  padding-bottom: 0.5em;
+}
+
+footer a:hover {
+  color: #0065fc;
 }
