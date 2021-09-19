@@ -44,7 +44,7 @@ a {
 .menu a:hover {
   color: #0065fc;
   border-top: 3px solid #0065fc;
-  padding-top: 1.875em;
+  padding-top: 0.75em;
 }
 
 .menu a.inscriptionLink {
@@ -214,6 +214,10 @@ article .SecondThreeCards {
   margin-bottom: 0;
   display: flex;
   justify-content: space-around;
+}
+
+.boxShadow {
+  box-shadow: 2px 7px 8px #d6d4d4;
 }
 
 .card {
