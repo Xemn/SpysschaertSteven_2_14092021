@@ -307,15 +307,29 @@ article p a:hover {
 }
 
 .descriptionPopulaire {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
   margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .descriptionPopulaire h3 {
   font-size: 0.75em;
+  margin: 0;
+  margin-bottom: 0.5em;
 }
 
 .descriptionPopulaire p {
   font-size: 0.75em;
+  margin: 0;
+}
+
+.starsPopulaire {
+  margin-left: 0;
+  font-size: 0.75em;
+  color: #f2f2f2;
 }
 
 .activités {
