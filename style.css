@@ -230,6 +230,14 @@ article .SecondThreeCards {
   -o-border-radius: 15px;
 }
 
+.card:hover {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+
 .card img {
   height: 115px;
   border-top-left-radius: 15px;
@@ -305,6 +313,14 @@ article p a:hover {
   border: 2px solid white;
 }
 
+.populaireCard:hover {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+
 .populaireCard img {
   height: 140px;
   width: 30%;
@@ -377,6 +393,14 @@ article p a:hover {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+.cardActivities:hover {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
 }
 
 .cardLarge {
