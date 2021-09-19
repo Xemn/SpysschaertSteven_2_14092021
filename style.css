@@ -187,7 +187,7 @@ aside {
 }
 
 article {
-  flex: 1.75;
+  flex: 2;
   margin-right: 2em;
 }
 
@@ -197,13 +197,14 @@ aside {
 
 article h2 {
   font-weight: bold;
-  margin: 1.5em;
+  margin: 2em;
   margin-bottom: 0.75em;
 }
 
 article .firstThreeCards,
 article .SecondThreeCards {
-  margin-top: 1em;
+  margin: 1em;
+  margin-bottom: 0;
   display: flex;
   justify-content: space-around;
 }
@@ -219,11 +220,11 @@ article .SecondThreeCards {
 }
 
 .card img {
-  height: 150px;
-  min-width: 225px;
-  max-width: 225px;
+  height: 115px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .descriptionHebergement h3 {
@@ -253,10 +254,11 @@ article .SecondThreeCards {
 .firstThreeCards a,
 .SecondThreeCards a {
   margin: 1em;
+  width: 30%;
 }
 
 article p a {
-  margin: 1.5em;
+  margin: 2em;
   font-weight: bold;
 }
 
