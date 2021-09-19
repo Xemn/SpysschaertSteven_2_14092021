@@ -354,6 +354,7 @@ article p a:hover {
 
 .cardLarge {
   margin-right: 2em;
+  width: 50%;
 }
 
 .cardLarge img {
@@ -368,6 +369,7 @@ article p a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 50%;
 }
 
 .cardMedium img {
