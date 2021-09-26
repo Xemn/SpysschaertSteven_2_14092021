@@ -133,3 +133,66 @@ form .wen {
   margin-left: 1.25em;
   width: 80%;
 }
+
+.articleAndAside {
+  flex-direction: column-reverse;
+}
+
+article {
+  width: 100%;
+  background-color: white;
+  margin-top: 1em;
+  margin-left: 0;
+}
+
+article h2 {
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+article .firstThreeCards,
+article .SecondThreeCards {
+  flex-direction: column;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.firstThreeCards a,
+.SecondThreeCards a {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+aside {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+aside h2 {
+  font-size: 1.5em;
+  margin-left: 0;
+}
+
+.titleAside {
+  align-items: baseline;
+}
+
+.titleAside i {
+  font-size: 1.5em;
+}
+
+.populaire a {
+  margin-bottom: 1em;
+}
+
+.descriptionPopulaire h3 {
+  font-size: 1em;
+}
+
+.descriptionPopulaire p {
+  font-size: 1em;
+}
