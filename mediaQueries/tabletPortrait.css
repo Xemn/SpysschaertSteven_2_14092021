@@ -60,3 +60,12 @@ aside {
   margin-bottom: 1em;
   margin-right: 0;
 }
+
+footer {
+  padding-left: 0;
+  justify-content: space-around;
+}
+
+footer nav {
+  margin-right: 0;
+}
