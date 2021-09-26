@@ -196,3 +196,30 @@ aside h2 {
 .descriptionPopulaire p {
   font-size: 1em;
 }
+
+.displayInRow {
+  flex-direction: column;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.firstThreeActivities,
+.secondThreeActivities {
+  flex-direction: column;
+  margin-right: 0;
+}
+
+.cardActivities {
+  margin-bottom: 1em;
+}
+
+.cardActivities img {
+  height: 100px;
+}
+
+.cardLarge {
+  width: 100%;
+}
+.cardInColumn {
+  width: 100%;
+}
