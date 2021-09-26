@@ -52,6 +52,7 @@ nav figure,
   width: 100%;
   border-bottom: 3px solid #f2f2f2;
   padding-bottom: 5px;
+  margin-right: 0;
 }
 
 .menu a:hover {
@@ -62,4 +63,12 @@ nav figure,
 
 .menu .inscriptionLink:hover {
   border: none;
+}
+
+section h1 {
+  margin-left: 1em;
+}
+
+section h2 {
+  margin-left: 1.5em;
 }
