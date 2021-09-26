@@ -236,3 +236,11 @@ aside h2 {
 .cardInColumn {
   width: 100%;
 }
+
+footer {
+  flex-direction: column;
+}
+
+footer nav {
+  margin-right: 0;
+}
