@@ -9,6 +9,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .marginLeft {
   margin-left: 3em;
 }
@@ -17,14 +22,10 @@ body {
   margin-right: 3em;
 }
 
-header figure {
+figure {
   margin: 0;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  position: relative;
+  top: 1em;
 }
 
 nav ul {
@@ -36,15 +37,23 @@ nav li {
   margin-right: 2em;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.menu {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 5fr repeat(3, 1fr);
+}
+
+.menu a {
+  margin-right: 2em;
+  align-self: center;
+  justify-self: flex-end;
+  border: 2px solid transparent;
+  padding-top: 2em;
 }
 
 .menu a:hover {
   color: #0065fc;
-  border-top: 3px solid #0065fc;
-  padding-top: 0.75em;
+  border-top: 2px solid #0065fc;
 }
 
 .menu a.inscriptionLink {
