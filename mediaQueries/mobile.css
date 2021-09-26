@@ -164,6 +164,11 @@ article .SecondThreeCards {
   width: 100%;
 }
 
+.descriptionHebergement h3,
+.descriptionHebergement p {
+  font-size: 1em;
+}
+
 aside {
   border-radius: 0;
   -webkit-border-radius: 0;
@@ -197,6 +202,10 @@ aside h2 {
   font-size: 1em;
 }
 
+.activités h2 {
+  margin-left: 1.5em;
+}
+
 .displayInRow {
   flex-direction: column;
   margin-left: 1.5em;
@@ -215,6 +224,10 @@ aside h2 {
 
 .cardActivities img {
   height: 100px;
+}
+
+.cardActivities h3 {
+  font-size: 1em;
 }
 
 .cardLarge {
