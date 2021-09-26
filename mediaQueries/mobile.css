@@ -67,8 +67,47 @@ nav figure,
 
 section h1 {
   margin-left: 1em;
+  margin-right: 2em;
+  font-size: 1.25em;
+  width: 80%;
 }
 
 section h2 {
-  margin-left: 1.5em;
+  margin-left: 1.25em;
+  font-size: 1em;
+}
+
+form {
+  margin-left: 1.25em;
+}
+
+form .input {
+  width: 70%;
+}
+form .searchText {
+  display: none;
+}
+
+form .wen {
+  display: block;
+  margin-left: -1em;
+  border: none;
+  border-radius: 10px;
+  height: 52px;
+  color: white;
+  background-color: #0065fc;
+  font-weight: bold;
+  font-size: 1em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.wen i {
+  background-color: transparent;
+  border: none;
+  color: white;
 }
