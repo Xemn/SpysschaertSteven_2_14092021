@@ -111,3 +111,25 @@ form .wen {
   border: none;
   color: white;
 }
+
+.filters {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2em;
+}
+
+.filters ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0.5em;
+}
+
+.filters ul li {
+  margin-bottom: 1em;
+}
+
+.informations {
+  margin-left: 1.25em;
+  width: 80%;
+}
