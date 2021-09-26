@@ -18,6 +18,7 @@ aside {
 
 .populaire {
   flex-direction: row;
+  margin-right: 0;
 }
 
 .populaire a {
