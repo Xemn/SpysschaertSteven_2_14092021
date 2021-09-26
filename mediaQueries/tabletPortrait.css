@@ -1,0 +1,52 @@
+.filters {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2em;
+}
+
+.filters ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 0.5em;
+  margin-left: 0;
+  width: 80%;
+}
+
+.filters ul li {
+  margin-bottom: 1em;
+}
+
+.articleAndAside {
+  flex-direction: column-reverse;
+}
+
+article {
+  margin-right: 0;
+}
+
+aside {
+  margin-bottom: 1.5em;
+}
+
+.populaire {
+  flex-direction: row;
+}
+
+.populaire a {
+  width: 33%;
+}
+
+.populaireCard {
+  flex-direction: column;
+  margin-right: 1em;
+}
+
+.populaireCard img {
+  height: 120px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
