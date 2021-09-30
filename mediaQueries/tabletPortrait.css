@@ -1,3 +1,5 @@
+/* Style apporté à la nav bar .filters et son contenu */
+
 .filters {
   flex-direction: column;
   align-items: flex-start;
@@ -17,6 +19,8 @@
   margin-bottom: 1em;
 }
 
+/* Style apporté à la div qui contient l'élément artcile et aside et ses élements enfants */
+
 .articleAndAside {
   flex-direction: column-reverse;
 }
@@ -28,6 +32,8 @@ article {
 aside {
   margin-bottom: 1.5em;
 }
+
+/* Style apporté à la div .populaire et à son contenu (carte, liens, image des cartes) */
 
 .populaire {
   flex-direction: row;
@@ -60,6 +66,8 @@ aside {
   margin-bottom: 1em;
   margin-right: 0;
 }
+
+/* Syle du footer et de son enfant (la nav bar) */
 
 footer {
   padding-left: 0;
