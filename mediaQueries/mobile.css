@@ -1,7 +1,4 @@
-header {
-  display: block;
-  margin-top: 0.5em;
-}
+/* Marge commune à une grande partie des élement parents */
 
 .marginLeft {
   margin-left: 0;
@@ -9,6 +6,13 @@ header {
 
 .marginRight {
   margin-right: 0;
+}
+
+/* Style approté au hearder, à sa nav bar, son logo, et ses liens */
+
+header {
+  display: block;
+  margin-top: 0.5em;
 }
 
 .menu {
@@ -65,6 +69,8 @@ nav figure,
   border: none;
 }
 
+/* Style donné au titre de notre première section */
+
 section h1 {
   margin-left: 1em;
   margin-right: 2em;
@@ -76,6 +82,8 @@ section h2 {
   margin-left: 1.25em;
   font-size: 1em;
 }
+
+/* Style donné au formulaire et à ses élements enfants présent dans notre première section */
 
 form {
   margin-left: 1.25em;
@@ -112,6 +120,8 @@ form .wen {
   color: white;
 }
 
+/* Style apporté à notre nav .filters, à sa liste et ses puces */
+
 .filters {
   flex-direction: column;
   align-items: flex-start;
@@ -134,9 +144,13 @@ form .wen {
   width: 80%;
 }
 
+/* Syle donnée à la div regroupant notre balise article et aside */
+
 .articleAndAside {
   flex-direction: column-reverse;
 }
+
+/* Style apporté à notre balise article et à son contenu */
 
 article {
   width: 100%;
@@ -168,6 +182,8 @@ article .SecondThreeCards {
 .descriptionHebergement p {
   font-size: 1em;
 }
+
+/* Style appporté à notre balise aside et à son contenu */
 
 aside {
   border-radius: 0;
@@ -201,6 +217,8 @@ aside h2 {
 .descriptionPopulaire p {
   font-size: 1em;
 }
+
+/* Style donné aux éléments présent dans la section .activités */
 
 .activités h2 {
   margin-left: 1.5em;
@@ -236,6 +254,8 @@ aside h2 {
 .cardInColumn {
   width: 100%;
 }
+
+/* Style apporté au footer et aux nav dont il est le parent */
 
 footer {
   flex-direction: column;
