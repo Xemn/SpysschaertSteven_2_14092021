@@ -1,7 +1,11 @@
+/* Définission d'une police */
+
 @font-face {
   font-family: "Raleway";
   src: url("fonts/Raleway/static/Raleway-Regular.ttf");
 }
+
+/* Règles s'appliquant à l'ensemble de la page */
 
 body {
   font-family: "Raleway", sans-serif;
@@ -21,6 +25,8 @@ a {
 .marginRight {
   margin-right: 3em;
 }
+
+/* Barre de navigation (nav) présente dans le header */
 
 figure {
   margin: 0;
@@ -62,6 +68,8 @@ nav li {
   border: none;
 }
 
+/* Style apporté au titre de la première section */
+
 h1 {
   margin-bottom: 8px;
 }
@@ -71,6 +79,8 @@ h2 {
   font-weight: normal;
   font-size: 1em;
 }
+
+/* Style apporté à l'élément form et à ces enfants directs */
 
 form {
   display: flex;
@@ -114,6 +124,8 @@ form .searchText {
 .wen {
   display: none;
 }
+
+/* Style apporté a la nav nommé .filters et à ses enfants directs */
 
 .filters {
   margin-top: 1em;
@@ -164,6 +176,8 @@ nav h2 {
   margin-left: 1em;
 }
 
+/* Style apporté à la div .informations et à son contenu */
+
 .informations {
   display: flex;
   align-items: center;
@@ -191,10 +205,14 @@ nav h2 {
   margin-right: 0.5em;
 }
 
+/* Style apporté à la div regroupant notre balise article et aside  */
+
 .articleAndAside {
   margin-top: 2em;
   display: flex;
 }
+
+/* Style des éléments article et aside et de leur contenu */
 
 article,
 aside {
@@ -232,6 +250,8 @@ article .SecondThreeCards {
 .boxShadow {
   box-shadow: 2px 7px 8px #d6d4d4;
 }
+
+/* Style apporté aux cartes dans la partie article */
 
 .card {
   background-color: white;
@@ -315,6 +335,8 @@ article p a:hover {
   margin: 0.75em 1.5em;
 }
 
+/* Style des cartes présent dans la partie aside */
+
 .populaireCard {
   display: flex;
   border-radius: 15px;
@@ -371,6 +393,8 @@ article p a:hover {
   font-size: 0.75em;
   color: #f2f2f2;
 }
+
+/* Style donné à la section .activités et à son contenu */
 
 .activités {
   margin-top: 3em;
@@ -451,6 +475,8 @@ article p a:hover {
   width: 100%;
   object-fit: cover;
 }
+
+/* Style donné au footer et à son contenu */
 
 footer {
   display: flex;
