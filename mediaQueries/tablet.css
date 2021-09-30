@@ -1,8 +1,12 @@
+/* Style apporté à ma nav bar */
+
 .menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 2em;
 }
+
+/* Style apporté à la div qui contient l'élément artcile et aside */
 
 .articleAndAside {
   flex-direction: column-reverse;
@@ -15,6 +19,8 @@ article {
 aside {
   margin-bottom: 1.5em;
 }
+
+/* Style apporté à la div .populaire et à son contenu (carte, liens, image des cartes) */
 
 .populaire {
   flex-direction: row;
@@ -38,6 +44,8 @@ aside {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
+
+/* Syle du footer et de son enfant (la nav bar) */
 
 footer {
   padding-left: 0;
