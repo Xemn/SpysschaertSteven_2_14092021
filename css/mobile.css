@@ -1,0 +1,266 @@
+/* Marge commune à une grande partie des élement parents */
+
+.marginLeft {
+  margin-left: 0;
+}
+
+.marginRight {
+  margin-right: 0;
+}
+
+/* Style approté au hearder, à sa nav bar, son logo, et ses liens */
+
+header {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+nav figure {
+  grid-column: 1;
+  grid-row: 1;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+nav figure,
+.inscriptionLink {
+  display: grid;
+  align-items: center;
+}
+
+.inscriptionLink {
+  grid-column: 2;
+  grid-row: 1;
+  justify-content: flex-end;
+}
+
+.menu a:nth-child(2) {
+  grid-column: 1;
+}
+
+.menu a:nth-child(3) {
+  grid-column: 2;
+}
+
+.menu a:nth-child(2),
+.menu a:nth-child(3) {
+  grid-row: 2;
+  display: grid;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 3px solid #f2f2f2;
+  padding-bottom: 5px;
+  margin-right: 0;
+}
+
+.menu a:hover {
+  color: #0065fc;
+  border-bottom: 3px solid #0065fc;
+  border-top: none;
+}
+
+.menu .inscriptionLink:hover {
+  border: none;
+}
+
+/* Style donné au titre de notre première section */
+
+section h1 {
+  margin-left: 1em;
+  margin-right: 2em;
+  font-size: 1.25em;
+  width: 80%;
+}
+
+section h2 {
+  margin-left: 1.25em;
+  font-size: 1em;
+}
+
+/* Style donné au formulaire et à ses élements enfants présent dans notre première section */
+
+form {
+  margin-left: 1.25em;
+}
+
+form .input {
+  width: 70%;
+}
+form .searchText {
+  display: none;
+}
+
+form .wen {
+  display: block;
+  margin-left: -1em;
+  border: none;
+  border-radius: 10px;
+  height: 52px;
+  color: white;
+  background-color: #0065fc;
+  font-weight: bold;
+  font-size: 1em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.wen i {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+/* Style apporté à notre nav .filters, à sa liste et ses puces */
+
+.filters {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2em;
+}
+
+.filters ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0.5em;
+}
+
+.filters ul li {
+  margin-bottom: 1em;
+}
+
+.informations {
+  margin-left: 1.25em;
+  width: 80%;
+}
+
+/* Syle donnée à la div regroupant notre balise article et aside */
+
+.articleAndAside {
+  flex-direction: column-reverse;
+}
+
+/* Style apporté à notre balise article et à son contenu */
+
+article {
+  width: 100%;
+  background-color: white;
+  margin-top: 1em;
+  margin-left: 0;
+}
+
+article h2 {
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+article .firstThreeCards,
+article .SecondThreeCards {
+  flex-direction: column;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.firstThreeCards a,
+.SecondThreeCards a {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.descriptionHebergement h3,
+.descriptionHebergement p {
+  font-size: 1em;
+}
+
+/* Style appporté à notre balise aside et à son contenu */
+
+aside {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+aside h2 {
+  font-size: 1.5em;
+  margin-left: 0;
+}
+
+.titleAside {
+  align-items: baseline;
+}
+
+.titleAside i {
+  font-size: 1.5em;
+}
+
+.populaire a {
+  margin-bottom: 1em;
+}
+
+.descriptionPopulaire h3 {
+  font-size: 1em;
+}
+
+.descriptionPopulaire p {
+  font-size: 1em;
+}
+
+/* Style donné aux éléments présent dans la section .activités */
+
+.activités h2 {
+  margin-left: 1.5em;
+}
+
+.displayInRow {
+  flex-direction: column;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.firstThreeActivities,
+.secondThreeActivities {
+  flex-direction: column;
+  margin-right: 0;
+}
+
+.cardActivities {
+  margin-bottom: 1em;
+}
+
+.cardActivities img {
+  height: 100px;
+}
+
+.cardActivities h3 {
+  font-size: 1em;
+}
+
+.cardLarge {
+  width: 100%;
+}
+.cardInColumn {
+  width: 100%;
+}
+
+/* Style apporté au footer et aux nav dont il est le parent */
+
+footer {
+  flex-direction: column;
+}
+
+footer nav {
+  margin-right: 0;
+}

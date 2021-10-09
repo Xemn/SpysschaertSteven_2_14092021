@@ -1,0 +1,506 @@
+/* Définission d'une police */
+
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway/static/Raleway-Regular.ttf");
+}
+
+/* Règles s'appliquant à l'ensemble de la page */
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin-top: 1em;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.marginLeft {
+  margin-left: 3em;
+}
+
+.marginRight {
+  margin-right: 3em;
+}
+
+/* Barre de navigation (nav) présente dans le header */
+
+figure {
+  margin: 0;
+  position: relative;
+  top: 1em;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin-right: 2em;
+}
+
+.menu {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 5fr repeat(3, 1fr);
+}
+
+.menu a {
+  margin-right: 2em;
+  align-self: center;
+  justify-self: flex-end;
+  border: 2px solid transparent;
+  padding-top: 2em;
+}
+
+.menu a:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+}
+
+.menu a.inscriptionLink {
+  color: #0065fc;
+  font-weight: bold;
+  border: none;
+}
+
+/* Style apporté au titre de la première section */
+
+h1 {
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+/* Style apporté à l'élément form et à ces enfants directs */
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form i {
+  padding: 1em;
+  background-color: #deebff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 2px solid #deebff;
+}
+
+form input {
+  margin-left: 0;
+  margin-right: 0;
+  border-left: 0;
+  border-right: 0;
+  border: 2px solid #deebff;
+  height: 52px;
+  width: 240px;
+  font-size: 1em;
+}
+
+form .searchText {
+  margin-left: 0;
+  border-left: 0;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 52px;
+  color: white;
+  background-color: #0065fc;
+  font-weight: bold;
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.wen {
+  display: none;
+}
+
+/* Style apporté a la nav nommé .filters et à ses enfants directs */
+
+.filters {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+.filters i {
+  color: #0065fc;
+  width: 40px;
+  height: 40px;
+  background-color: #deebff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.filters a {
+  display: flex;
+  align-items: center;
+  border: 1px solid #deebff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding-right: 1em;
+  font-weight: bold;
+}
+
+.filters a:hover {
+  color: white;
+  background-color: #0065fc;
+}
+
+.filters ul {
+  padding: 0;
+  margin-left: 1em;
+}
+
+/* Style apporté à la div .informations et à son contenu */
+
+.informations {
+  display: flex;
+  align-items: center;
+}
+
+.informations p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.informations i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #deebff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #f2f2f2;
+  color: #0065fc;
+  margin-right: 0.5em;
+}
+
+/* Style apporté à la div regroupant notre balise article et aside  */
+
+.articleAndAside {
+  margin-top: 2em;
+  display: flex;
+}
+
+/* Style des éléments article et aside et de leur contenu */
+
+article,
+aside {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+article {
+  flex: 2;
+  margin-right: 2em;
+}
+
+aside {
+  flex: 1;
+}
+
+article h2 {
+  font-weight: bold;
+  margin: 2em;
+  margin-bottom: 0.75em;
+}
+
+article .firstThreeCards,
+article .SecondThreeCards {
+  margin: 1em;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxShadow {
+  box-shadow: 2px 7px 8px #d6d4d4;
+}
+
+/* Style apporté aux cartes dans la partie article */
+
+.card {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+
+.card img {
+  height: 115px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.descriptionHebergement h3 {
+  font-size: 0.75em;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.descriptionHebergement p {
+  font-size: 0.75em;
+  font-weight: normal;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.stars {
+  font-size: 0.75em;
+  margin: 5px;
+  margin-left: 10px;
+  color: #f2f2f2;
+}
+
+.blue {
+  color: #0065fc;
+}
+
+.firstThreeCards a,
+.SecondThreeCards a {
+  margin: 1em;
+  width: 30%;
+}
+
+article p a {
+  margin: 2em;
+  font-weight: bold;
+}
+
+article p a:hover {
+  color: #0065fc;
+}
+
+.titleAside {
+  display: flex;
+  margin: 1.5em;
+  margin-bottom: 0.75em;
+  justify-content: space-between;
+}
+
+.titleAside h2 {
+  font-weight: bold;
+}
+
+.populaire {
+  display: flex;
+  flex-direction: column;
+  margin: 0.75em 1.5em;
+}
+
+/* Style des cartes présent dans la partie aside */
+
+.populaireCard {
+  display: flex;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.populaireCard:hover {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+
+.populaireCard img {
+  height: 140px;
+  width: 30%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  object-fit: cover;
+}
+
+.populaire a {
+  margin-bottom: 2em;
+}
+
+.descriptionPopulaire {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descriptionPopulaire h3 {
+  font-size: 0.75em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.descriptionPopulaire p {
+  font-size: 0.75em;
+  margin: 0;
+}
+
+.starsPopulaire {
+  margin-left: 0;
+  font-size: 0.75em;
+  color: #f2f2f2;
+}
+
+/* Style donné à la section .activités et à son contenu */
+
+.activités {
+  margin-top: 3em;
+}
+
+.activités h2 {
+  font-weight: bold;
+}
+.displayInRow {
+  display: flex;
+}
+
+.firstThreeActivities {
+  margin-right: 1em;
+}
+
+.firstThreeActivities,
+.secondThreeActivities {
+  display: flex;
+}
+
+.activités h3 {
+  font-size: 0.75em;
+  margin: 1em;
+  font-weight: bold;
+}
+
+.cardActivities {
+  background-color: white;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.cardActivities:hover {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+
+.cardLarge {
+  margin-right: 2em;
+  width: 50%;
+}
+
+.cardLarge img {
+  height: 390px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardInColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.cardMedium img {
+  height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardSmall img {
+  height: 120px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Style donné au footer et à son contenu */
+
+footer {
+  display: flex;
+  margin-top: 3em;
+  background-color: #f2f2f2;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+}
+
+footer nav {
+  margin-right: 15em;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+footer li {
+  padding-bottom: 0.5em;
+}
+
+footer a:hover {
+  color: #0065fc;
+}
