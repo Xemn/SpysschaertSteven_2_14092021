@@ -231,6 +231,7 @@ aside h2 {
 
 .activités h2 {
   margin-left: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .displayInRow {
@@ -246,7 +247,7 @@ aside h2 {
 }
 
 .cardActivities {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 .cardActivities img {
