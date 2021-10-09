@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav li {
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
 .menu {
@@ -432,6 +432,7 @@ article p a:hover {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  height: 100%;
 }
 
 .cardActivities:hover {
