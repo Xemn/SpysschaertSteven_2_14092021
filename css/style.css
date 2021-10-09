@@ -135,6 +135,7 @@ form .searchText {
 
 nav h2 {
   margin: 0;
+  font-weight: bold;
 }
 
 .filters i {
