@@ -50,7 +50,8 @@ nav li {
 }
 
 .menu a {
-  margin-right: 2em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
   align-self: center;
   justify-self: flex-end;
   border: 2px solid transparent;
