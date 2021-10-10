@@ -48,8 +48,7 @@ nav figure,
   grid-column: 2;
 }
 
-.menu a:nth-child(2),
-.menu a:nth-child(3) {
+.menu .menuLink {
   grid-row: 2;
   display: grid;
   justify-content: space-around;
@@ -61,7 +60,12 @@ nav figure,
   padding-right: 0;
 }
 
-.menu a:hover {
+.menu .logo {
+  padding-right: 4em;
+  padding-top: 1em;
+}
+
+.menu .menuLink:hover {
   color: #0065fc;
   border-bottom: 3px solid #0065fc;
   border-top: none;
