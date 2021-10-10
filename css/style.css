@@ -58,9 +58,13 @@ nav li {
   padding-top: 2em;
 }
 
-.menu a:hover {
+.menu .menuLink:hover {
   color: #0065fc;
   border-top: 2px solid #0065fc;
+}
+
+.menu .logo {
+  padding-left: 0;
 }
 
 .menu a.inscriptionLink {
